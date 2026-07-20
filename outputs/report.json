@@ -1,0 +1,101 @@
+{
+  "report": {
+    "doc_ids": [
+      "sample_service_agreement",
+      "sample_invoice",
+      "sample_addendum"
+    ],
+    "executive_summary": "[MOCK MODE \u2014 extractive summarization, no LLM used] Synthesized 7 chunks (~3,019 characters) from 3 document(s) into 5 section(s), surfacing the most obligation-dense sentence per chunk. Run with --mode live and ANTHROPIC_API_KEY set for genuine LLM synthesis with true summarization.",
+    "sections": [
+      {
+        "title": "General",
+        "claims": [
+          {
+            "text": "FEES AND PAYMENT\nClient shall pay Provider a monthly fee of $18,500, due within fifteen (15) days of\ninvoice date.",
+            "supporting_chunk_ids": [
+              "sample_service_agreement-p?-29488308"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "text": "SERVICE LEVEL PENALTIES\nIf Provider's uptime falls below 99.5% in any calendar month, Client shall be entitled to\na service credit of 5% of that month's fee for each full percentage point of downtime\nbelow the threshold, up to a maximum credit of 25% of the monthly fee.",
+            "supporting_chunk_ids": [
+              "sample_service_agreement-p?-fac65b94"
+            ],
+            "confidence": 0.6
+          },
+          {
+            "text": "_______________________          _______________________\nNorthwind Analytics Pvt Ltd       Solstice Retail Group\nPriya Nathan, VP Operations       Daniel Osei, Chief Revenue Officer",
+            "supporting_chunk_ids": [
+              "sample_service_agreement-p?-c5c36b4d"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "title": "Page 1",
+        "claims": [
+          {
+            "text": "INVOICE #INV-2026-0447\nBilled to: Solstice Retail Group\nFrom: Northwind Analytics Pvt Ltd\nDate: March 1, 2026\nDescription: Monthly analytics platform subscription - February 2026\nAmount Due: $18,500.00\nDue Date: March 16, 2026\nPayment terms: Net 15.",
+            "supporting_chunk_ids": [
+              "sample_invoice-p1-faa2b0aa"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "title": "Sample Contract Addendum",
+        "claims": [
+          {
+            "text": "This addendum modifies the payment terms of the original Service Agreement between Northwind Analytics and Solstice Retail Group.",
+            "supporting_chunk_ids": [
+              "sample_addendum-p?-2a0ffdaf"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "title": "Revised Payment Terms",
+        "claims": [
+          {
+            "text": "Effective April 1, 2026, the monthly fee is increased to $21,000, payable within ten (10) days of invoice.",
+            "supporting_chunk_ids": [
+              "sample_addendum-p?-d03b2bf4"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "title": "Table 1",
+        "claims": [
+          {
+            "text": "Month | Fee\nApril 2026 | $21,000",
+            "supporting_chunk_ids": [
+              "sample_addendum-p?-237c4c1d"
+            ],
+            "confidence": 0.6
+          }
+        ]
+      }
+    ],
+    "entities": [],
+    "risks_or_action_items": []
+  },
+  "verification": {
+    "report_ok": true,
+    "flags": [],
+    "integrity_score": 1.0
+  },
+  "timing": {
+    "extraction_seconds": 0.287,
+    "synthesis_seconds": 0.001,
+    "verification_seconds": 0.015,
+    "total_seconds": 0.303,
+    "documents_processed": 3,
+    "chunks_extracted": 7
+  }
+}

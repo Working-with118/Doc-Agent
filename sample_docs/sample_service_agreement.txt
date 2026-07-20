@@ -1,0 +1,55 @@
+SERVICE AGREEMENT
+
+This Service Agreement ("Agreement") is entered into between Northwind Analytics Pvt Ltd
+("Provider") and Solstice Retail Group ("Client"), effective as of January 15, 2026.
+
+1. SCOPE OF SERVICES
+
+Provider shall deliver a customer analytics dashboard, including monthly churn prediction
+reports and quarterly business reviews. Provider shall also maintain 99.5% uptime for the
+hosted dashboard platform, measured monthly.
+
+2. TERM AND TERMINATION
+
+This Agreement shall remain in effect for twelve (12) months from the effective date, and
+shall automatically renew for successive twelve (12) month periods unless either party
+provides written notice of non-renewal at least sixty (60) days prior to the end of the
+then-current term. Either party may terminate this Agreement for material breach if such
+breach remains uncured for thirty (30) days after written notice.
+
+3. FEES AND PAYMENT
+
+Client shall pay Provider a monthly fee of $18,500, due within fifteen (15) days of
+invoice date. Late payments shall accrue interest at 1.5% per month. Provider reserves
+the right to suspend services if payment is more than thirty (30) days overdue.
+
+4. DATA OWNERSHIP AND CONFIDENTIALITY
+
+All Client data processed under this Agreement remains the exclusive property of Client.
+Provider shall not use Client data for any purpose outside the scope of this Agreement,
+and shall implement industry-standard encryption for data at rest and in transit. Both
+parties agree to keep the terms of this Agreement confidential for a period of three (3)
+years following termination.
+
+5. LIABILITY
+
+Provider's total liability under this Agreement shall not exceed the total fees paid by
+Client in the twelve (12) months preceding the claim. Neither party shall be liable for
+indirect, incidental, or consequential damages.
+
+6. SERVICE LEVEL PENALTIES
+
+If Provider's uptime falls below 99.5% in any calendar month, Client shall be entitled to
+a service credit of 5% of that month's fee for each full percentage point of downtime
+below the threshold, up to a maximum credit of 25% of the monthly fee.
+
+7. GOVERNING LAW
+
+This Agreement shall be governed by the laws of the State of Delaware, without regard to
+its conflict of laws principles.
+
+Signed:
+
+_______________________          _______________________
+Northwind Analytics Pvt Ltd       Solstice Retail Group
+Priya Nathan, VP Operations       Daniel Osei, Chief Revenue Officer
