@@ -26,7 +26,8 @@ from verifier_agent import verify_report  # noqa: E402
 
 st.set_page_config(page_title="Document Synthesis Agent", layout="wide")
 
-st.title("📄 Intelligent Document Synthesis & Analysis Agent")
+st.image("logo.png", use_container_width=False, width=250)
+st.title("Intelligent Document Synthesis & Analysis Agent")
 st.caption("Extractor Agent → Synthesis Agent → Verifier Agent, with a live revision loop when issues are found.")
 
 with st.sidebar:
