@@ -47,6 +47,10 @@ with st.sidebar:
         "Synthesis Agent for revision."
     )
 
+    st.markdown(
+        "**Created by ~** Syed Abdur Rasheed & Md. Abdul Razzaq "
+    )
+
 uploaded_files = st.file_uploader(
     "Upload documents (PDF, DOCX, or TXT) — try mixing formats",
     type=["pdf", "docx", "txt"],
